@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #eef4f7;
+}
+.travel-heading {
+  font-family: 'Roboto';
+  color: #331455;
+  margin-bottom: 0px;
+}
+.horizonatl-line {
+  height: 4px;
+  width: 100vw;
+  background-color: #52bbf0;
+}
+.locations-container {
+  width: 100%;
+  min-height: 80vh;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.locations-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
