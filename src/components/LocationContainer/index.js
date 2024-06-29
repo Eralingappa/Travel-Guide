@@ -1,9 +1,12 @@
 import {
   LocationContainer,
   HeadingDescriptionContainer,
+  Heading,
   Paragraph,
 } from './styledComponents'
+
 import './index.css'
+
 const LocationContainer = props => {
   const {locationData} = props
   const {imageUrl, description, name} = locationData
